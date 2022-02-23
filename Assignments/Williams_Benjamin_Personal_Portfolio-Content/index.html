@@ -10,7 +10,7 @@
 <body>
     <div class="centerAlign">
         <h1>Benjamin Cooke Williams</h1>
-        <img src="./Assets/Profile_Photo.jpg" alt="Photo of myself" height="310px">
+        <img src="./Assets/Profile_Photo.jpg" alt="Photo of myself" height="310">
         <div class="sBsLinks">
             <a href="http://www.github.com/bcookew">My GitHub</a>
             <a href="http://www.linkedin.com/bcookew">My LinkedIn</a>
@@ -21,9 +21,11 @@
         <p>I am a self-driven team player interested in leveraging technology to support custom solutions tailored to a clients specific situation.</p>
         <table>
             <thead>
-                <th>Competency</th>
-                <th>Certified by</th>
-                <th>Date of Completion</th>
+                <tr>
+                    <th>Competency</th>
+                    <th>Certified by</th>
+                    <th>Date of Completion</th>
+                </tr>
             </thead>
             <tbody>
                 <tr>
@@ -46,7 +48,7 @@
     </div>
     <div class="centerAlign topPadding">
         <h2><em>Arena Combat!</em></h2>
-        <img src="./Assets/Play Arena Combat.png" alt="Screenshot of Arena Combat!" width="500px">
+        <img src="./Assets/Play_Arena_Combat.png" alt="Screenshot of Arena Combat!" width="500">
         <p>Developed while I was taking the Codecademy Computer Science course, Arena Combat was my first attemopt at building an application with OOP. This project was built in Python 3 over a period of about 2 weeks working on it part-time. </p>
         <div class="sBsLinks">
             <a href="https://medium.com/@usmigrant/my-first-code-3a714c371283">About <em>Arena Combat!</em></a>
@@ -54,17 +56,17 @@
         </div>
     </div>
     <div class="centerAlign">
-        <form action="" class="forms">
+        <form class="forms">
             <h2>Contact Me:</h2>
             <div>
                 <label for="name">Name:</label>
-                <input type="text" name="name" id="" maxlength="50" placeholder="Name">
+                <input type="text" id="name" maxlength="50" placeholder="Name">
                 <label for="email">eMail:</label>
-                <input type="email" name="email" id="" placeholder="eMail">
+                <input type="email" id="email" placeholder="eMail">
             </div>
             <div class="topPadding">
                 <label for="message">Message:</label>
-                <textarea name="message" id="" cols="30" rows="10" placeholder="200 Character Maximum" maxlength="200"></textarea>
+                <textarea id="message" cols="30" rows="10" placeholder="200 Character Maximum" maxlength="200"></textarea>
             </div>
             <div class="topPadding">
             <input type="button" value="Send Message">
