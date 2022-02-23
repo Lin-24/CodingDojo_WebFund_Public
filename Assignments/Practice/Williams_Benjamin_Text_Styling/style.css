@@ -1,0 +1,29 @@
+*{
+    font-family: cursive;
+    padding: 2px 5px;
+    margin: 5px;
+}
+
+#header{
+    background-color: black;
+    color: white;
+}
+
+#header span{
+    color: aquamarine;
+}
+
+#main{
+    background-color: rebeccapurple;
+    color: white;
+    font-style: italic;
+    text-align: center;
+}
+
+#footer{
+    background-color: aqua;
+    color: blue;
+    text-align: right;
+    text-decoration: underline;
+}
+
