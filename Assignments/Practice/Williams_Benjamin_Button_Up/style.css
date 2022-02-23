@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+}
+
+#search{
+    margin: 10px;
+    background-color: white;
+    border: 2px solid darkturquoise;
+    border-radius: 10px;
+    font-weight: bold;
+    color:darkturquoise;
+    width: 125px;
+}
+
+#add{
+    margin: 10px;
+    background-color: darkturquoise;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    font-size: 120%;
+}
+
+#create_account{
+    margin: 10px;
+    width: 150px;
+    height: 25px;
+    border: 2px solid black;
+    background-color:dodgerblue;
+    color: white;
+    box-shadow: 3px 3px black;
+}
