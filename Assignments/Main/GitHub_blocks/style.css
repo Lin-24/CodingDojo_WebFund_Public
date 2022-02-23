@@ -1,0 +1,51 @@
+h1{
+    text-align: center;
+    font-family: sans-serif;
+
+}
+
+body{
+    margin: 20px;
+    width: 600px;
+}
+img{
+    width: 150px;
+
+}
+
+.wrapper{
+    background-color:gainsboro;
+    padding: 10px;
+
+}
+
+div.wrapper > h5{
+    text-align: center;
+}
+
+div.wrapper > div{
+    padding: 10px;
+    margin: 10px;
+}
+
+.topRow{
+    background-color: #5bcffb;
+}
+
+.midRow{
+    background-color: #f5abb9;
+}
+
+.btmRow{
+    background-color: #ffffff;
+}
+
+.posiBetween{
+    display: flex;
+    justify-content: space-between;
+}
+
+.posiAround{
+    display: flex;
+    justify-content: space-around;
+}
