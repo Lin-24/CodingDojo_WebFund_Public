@@ -1,0 +1,23 @@
+.card{
+    border: 1px solid gray;
+    width: 350px;
+    height: 200px;
+    margin: auto;
+    background-color: white;
+}
+
+.cardHeader{
+    height: 50px;
+    width: 100%;
+    background-color: turquoise;
+}
+
+.card > img{
+    width: 46px;
+    position:relative;
+    top: -25px;
+    left: 25px;
+    border: 2px solid white;
+    border-radius: 50%;
+    box-shadow: 0px 2px 2px -1px black;
+}
