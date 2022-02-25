@@ -4,10 +4,10 @@
     padding: 0;
 
 }
-
+/* 
 body{
     background-color: slategray;
-}
+} */
 
 #header{
     background-color: #444444;
@@ -53,7 +53,6 @@ button{
 }
 
 #content{
-    background-color: aliceblue;
     max-width: 80%;
     /* height: 800px; */
     margin: 0px auto;
@@ -63,13 +62,13 @@ button{
 }
 
 #main{
-    background-color: gray;
+    background-color: lightgray;
     /* height: 100%; */
     width: 66%;
 }
 
 #sideBar{
-    background-color: gray;
+    background-color: lightgray;
     /* height: 100%; */
     width: 30%;
 }
@@ -89,13 +88,13 @@ button{
 }
 
 #profileCard{
-    width: 99%;
+    width: 100%;
     min-height: 250px;
     margin-bottom: 25px;
-    background-color: white;
-    display: flex;
-    flex-wrap: wrap;
-    border: 3px solid gray;
+    background-color: wheat;
+    display: block;
+    /* flex-wrap: wrap; */
+    font-family: 'Roboto', sans-serif;
 }
 
 #education{
@@ -107,20 +106,18 @@ button{
 
 
 /* Additions below */
-/* 
-#profileCard p:last-of-type{
-    margin-top: 15px;
-} */
 
 .cardHeader{
     height: 70px;
     width: 100%;
     background-color: turquoise;
-    margin: 0px 0px 25px;
+    box-shadow: inset 1.5px 1.5px 1.5px -.5px #008d92, inset -1.5px -1.5px 1.5px -.5px #008d92;
 }
 
 .cardBody{
-    padding: 15px 20px 0px;
+    background-color: white;
+    width:fit-content;
+    padding: 45px 20px 10px
 }
 
 img#profilePhoto{
@@ -147,8 +144,8 @@ img#profilePhoto{
 }
 
 .bodyTextSpacer{
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 img.icon{
@@ -156,6 +153,8 @@ img.icon{
     margin:  5px 5px 5px 0px;
 }
 
-.boxBorder{
-    /* border: 3px inset black; */
+.threeQuarterBoxBorder{
+    border-right: 3px solid #008d92;
+    border-left: 3px solid #008d92;
+    border-bottom: 3px solid #008d92;
 }
