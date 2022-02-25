@@ -98,7 +98,7 @@ p{
 }
 
 
-.cardHeader{
+.profileCardHeader{
     height: 150px;
     width:auto;
     background-image:url(./Assets/Backgrounds/Play_Arena_Combat_code.png);
@@ -169,3 +169,4 @@ img.icon{
 .editLink{
     font-size: .8em;
 }
+
