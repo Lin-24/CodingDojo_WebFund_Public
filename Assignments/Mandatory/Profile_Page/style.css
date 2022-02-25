@@ -2,59 +2,59 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 
 }
-/* 
+
 body{
-    background-color: slategray;
-} */
+    background-color: #F3F2EF;
+}
+
+p{
+    font-size: .9em;
+}
 
 #header{
-    background-color: #444444;
+    background-color: white;
     width: 100%;
     display: flex;
     justify-content: center;
-    padding: 10px 0px;
+    position: fixed;
+    z-index: 1;
 }
 
 #nav{
     width: 80%;
-    font-family: 'Roboto', sans-serif;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     
 }
 
 .nav-title{
-    color: white;
+    color: #5F6163;
     margin-left: 5px;
+    display: flex;
+    align-items: inherit;
 }
 
 .nav-links{
     display: flex;
     list-style: none;
+    align-items: inherit;
 }
 
 .nav-links a{
     text-decoration: none;
-    color: lightgray;
+    color: #5F6163;
 }
 
 .nav-links li{
     margin: 10px;
 }
 
-button{
-    background-color: turquoise;
-    color: white;
-    border: 2px solid black;
-    box-shadow: 2px 2px black;
-    padding: 2px 4px;
-}
-
 #content{
     max-width: 80%;
-    /* height: 800px; */
     margin: 0px auto;
     display: flex;
     justify-content: space-between;
@@ -62,14 +62,13 @@ button{
 }
 
 #main{
-    background-color: lightgray;
-    /* height: 100%; */
+    margin-top: 50px;
     width: 66%;
 }
 
 #sideBar{
+    margin-top: 50px;
     background-color: lightgray;
-    /* height: 100%; */
     width: 30%;
 }
 
@@ -84,51 +83,44 @@ button{
     width: 100%;
     height: 300px;
     background-color: bisque;
-    /* margin-bottom: 25px; */
 }
 
 #profileCard{
     width: 100%;
     min-height: 250px;
     margin-bottom: 25px;
-    background-color: wheat;
-    display: block;
-    /* flex-wrap: wrap; */
-    font-family: 'Roboto', sans-serif;
 }
 
 #education{
     width: 100%;
     height: 300px;
     background-color: bisque;
-    /* margin-bottom: 25px; */
 }
 
 
-/* Additions below */
-
 .cardHeader{
-    height: 70px;
-    width: 100%;
-    background-color: turquoise;
-    box-shadow: inset 1.5px 1.5px 1.5px -.5px #008d92, inset -1.5px -1.5px 1.5px -.5px #008d92;
+    height: 150px;
+    width:auto;
+    background-image:url(./Assets/Backgrounds/Play_Arena_Combat_code.png);
+    background-size: 104%;
+    background-position: bottom;
 }
 
 .cardBody{
     background-color: white;
-    width:fit-content;
-    padding: 45px 20px 10px
+    width:auto;
+    padding: 5em 2em 1em;
 }
 
 img#profilePhoto{
-    width: 66px;
-    height: 66px;
+    width: 120px;
+    height: 120px;
     border: 2px solid white;
     border-radius: 50%;
     box-shadow: 0px 2px 2px -1px black;
     position: relative;
-    top: 35px;
-    left: 20px;
+    top: 5em;
+    left: 2em;
 }
 
 .flexWrapCenter{
@@ -153,8 +145,27 @@ img.icon{
     margin:  5px 5px 5px 0px;
 }
 
-.threeQuarterBoxBorder{
-    border-right: 3px solid #008d92;
-    border-left: 3px solid #008d92;
-    border-bottom: 3px solid #008d92;
+.threeQuarterBoxBorderTop{
+    border-right: 0.1em solid #E0DFDC;
+    border-left: 0.1em solid #E0DFDC;
+    border-top: 0.1em solid #E0DFDC;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+
+.threeQuarterBoxBorderBottom{
+    border-right: 0.1em solid #E0DFDC;
+    border-left: 0.1em solid #E0DFDC;
+    border-bottom: 0.1em solid #E0DFDC;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+}
+
+.emptyButton{
+    padding: .25em .5em;
+    color: #2D7AE4;
+}
+
+.editLink{
+    font-size: .8em;
 }
