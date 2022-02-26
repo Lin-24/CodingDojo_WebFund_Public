@@ -6,7 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Profile Page</title>
+    <script src="https://kit.fontawesome.com/72cf54f64d.js" crossorigin="anonymous"></script>
 </head>
+
+<!-- Header of the page -->
+
 <body>
     <div id="header">
         <div id="nav">
@@ -19,13 +23,31 @@
             </ul>
         </div>
     </div>
+    
+
+
+    <!-- Below is the Main Content of the page -->
+
     <div id="content">
+
+
+
+        <!-- Everything below is part of the main column in the content panel. -->
+        
         <div id="main">
-            <div id="profileCard">
+
+
+
+            <!-- Profile Info Section -->
+
+            <div class="card boxBorder">
                 <div class="profileCardHeader threeQuarterBoxBorderTop">
                     <img src="./Assets/images/Profile_Photo.jpg" alt="Profile image Benjamin Williams" id="profilePhoto">
                 </div>
-                <div class="cardBody threeQuarterBoxBorderBottom">
+                <div class="profileCardBody">
+                    <div class="flexWrapCenter rowSpacer flexRev">
+                        <a href="#"><i class="fa-solid fa-pencil"></i></a>
+                    </div>
                     <h2>Benjamin C Williams</h2>
                     <h4 class="rowSpacer">Full-Stack .NET Core Developer</h4>
                     <p class="rowSpacer">Driven | Creative | Solutions Focused</p>
@@ -35,19 +57,162 @@
                     </div>
                     <p class="bodyTextSpacer">A motivated team player leveraging technology to support custom solutions tailored to a clients specific situation.</p>
                     <p class="bodyTextSpacer">Specialising in IOT hardware and software development for event safety management applications.</p>
-                    <div class="flexWrapCenter rowSpacer editLink">
-                        <img src="./Assets/icons/gear.png" alt="Gear Icon" class="icon">
-                        <a href="#">edit profile</a>
-                    </div>
                 </div>
             </div>
-            <div id="education"></div>
-        </div>
-        <div id="sideBar">
-            <div id="requests">
-                <div class="cardHeader"></div>
+            
+            <!-- Work Experience Section -->
+
+            <div class="card boxBorder">
+                <div class="cardHeader">
+                    <h3>Work Experience</h3>
+                    <a href="#"><i class="fa-solid fa-pencil"></i></a>
+                </div>
+                <div class="cardBody">
+                    
+                    <div class="spaceBetween">
+                        <p class="title">YooCrew Ltd</p>
+                        <p class="title">Aug 2020 - Present</p>
+                    </div>    
+                    <p class="subtitle">Concert Rigger / Rigging Lead</p>
+                    <div class="description"></div>
+                    
+                    <div class="spaceBetween">
+                        <p class="title">New Plymouth Festival of Lights (MJF Lighting)</p>
+                        <p class="title">Dec 2020 - Jan 2021</p>
+                    </div>    
+                    <p class="subtitle">Artwork Rigger</p>
+                    <p class="description">Devised the method of suspension for several artworks and installed them. Operated self propelled knuckle boom for installation work requiring heights access.</p>
+                    
+                    <div class="spaceBetween">
+                        <p class="title">Metro Productions Ltd</p>
+                        <p class="title">Mar 2013 - July 2020</p>
+                    </div>
+                    <div class="spaceBetween">
+                        <p class="subtitle">Technical Manager</p>
+                        <p class="subtitle">June 2016 - July 2020</p>
+                    </div>
+                    <div class="description">
+                        <p>Responsibilities included:</p>
+                        <ul class="description">
+                            <li>Working with clients to define needs and deliverables</li>
+                            <li>Designing and developing custom concert stages and event structures</li>
+                            <li>Managing the quality and consistency of technical delivery companywide</li>
+                            <li>Working with structural engineers to confirm suitability and compliance with local building codes</li>
+                            <li>Evaluating training needs among technical team members</li>
+                            <li>Revising working methodologies with regard to efficiency and cost reduction</li>
+                        </ul>
+                    </div>
+
+                </div>
             </div>
-            <div id="connections"></div>
+
+            <!-- Education Card -->
+
+            <div class="card boxBorder">
+                <div class="cardHeader">
+                    <h3>Education</h3>
+                    <a href="#"><i class="fa-solid fa-pencil"></i></a>
+                </div>
+                <div class="cardBody">
+                    <div class="spaceBetween">
+                        <p class="title">Coding Dojo</p>
+                        <p class="title">Feb-May 2022</p>
+                    </div>    
+                    <p class="subtitle">Graduated with Triple Black Belt</p>
+                    <div class="description">
+                        <p>Full-Stack trained across:</p>
+                        <ul class="description">
+                            <li>Python</li>
+                            <li>MERN</li>
+                            <li>C# / .NET Core</li>
+                        </ul>
+                    </div>
+                    <div class="spaceBetween">
+                        <p class="title">Te Kura Toi Whakaari O Aotearoa New Zealand Drama School</p>
+                        <p class="title">Feb-Nov 2012</p>
+                    </div>    
+                    <p class="subtitle">Advanced Diploma in Entertainment technology</p>
+                    <p class="description">Trained in Production Technical Design and Management</p>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- Everything below is part of the sidebar in the content panel. -->
+
+        <div id="sideBar">
+
+            <!-- Connection Requests panel -->
+
+            <div class="card boxBorder">
+                <div class="cardHeader">
+                    <h3>Requests</h3>
+                </div>
+                <div class="cardBody">
+                    <div class="spaceBetween">
+                        <div class="flexWrapCenter">
+                            <a href="#"><img src="./Assets/images/adrien-s.jpg" alt="Adrien Small" class="profilePhotoSmall"></a>
+                            <p class="subtitle">Adrien Small</p>
+                        </div>
+                        <div class="acceptReject flexWrapCenter">
+                            <i class="fa-solid fa-check"></i>
+                            <i class="fa-solid fa-x"></i>
+                        </div>
+                    </div>
+                    <div class="spaceBetween">
+                        <div class="flexWrapCenter">
+                            <a href="#"><img src="./Assets/images/alayne-s.jpg" alt="Alayne Bennington" class="profilePhotoSmall"></a>
+                            <p class="subtitle">Alayne Bennington</p>
+                        </div>
+                        <div class="acceptReject flexWrapCenter">
+                            <i class="fa-solid fa-check"></i>
+                            <i class="fa-solid fa-x"></i>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+
+            <!-- Connections Panel -->
+
+            <div class="card boxBorder">
+                <div class="cardHeader">
+                    <h3>Connections</h3>
+                    <a href="#"><i class="fa-solid fa-pencil"></i></a>
+                </div>
+                <div class="cardBody">
+                    <div class="spaceBetween">
+                        <div class="flexWrapCenter">
+                            <a href="#"><img src="./Assets/images/jane-m.jpg" alt="Jane Carroll" class="profilePhotoSmall"></a>
+                            <p class="subtitle">Jane Carroll</p>
+                        </div>
+                    </div> 
+                    <div class="spaceBetween">
+                        <div class="flexWrapCenter">
+                            <a href="#"><img src="./Assets/images/anne-s.jpg" alt="Leroy Jenkins" class="profilePhotoSmall"></a>
+                            <p class="subtitle">Leroy Jenkins</p>
+                        </div>
+                    </div> 
+                    <div class="spaceBetween">
+                        <div class="flexWrapCenter">
+                            <a href="#"><img src="./Assets/images/arry-s.jpg" alt="Rand al'Thor" class="profilePhotoSmall"></a>
+                            <p class="subtitle">Rand al'Thor</p>
+                        </div>
+                    </div> 
+                    <div class="spaceBetween">
+                        <div class="flexWrapCenter">
+                            <a href="#"><img src="./Assets/images/darth_maul.jpg" alt="Darth Maul" class="profilePhotoSmall"></a>
+                            <p class="subtitle">Darth Maul</p>
+                        </div>
+                    </div> 
+                    <div class="spaceBetween">
+                        <div class="flexWrapCenter">
+                            <a href="#"><img src="./Assets/images/Kerrigan.jpg" alt="Sarah Kerrigan" class="profilePhotoSmall"></a>
+                            <p class="subtitle">Sarah Kerrigan</p>
+                        </div>
+                    </div> 
+                </div>
+            </div>
         </div>
     </div>
 </body>
