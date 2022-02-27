@@ -1,0 +1,76 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+      
+  /* Fixed width container class that will "auto-center" itself */
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+  }
+
+
+.row{
+    display: flex;
+
+}
+
+.col, .col-2, .col-3{
+    border: 1px solid;
+    flex:1;
+    margin: 10px;
+    padding: 10px;
+    background-color: turquoise;
+}
+
+
+#btnSearch{
+    margin: 10px;
+    background-color: white;
+    border: 2px solid darkturquoise;
+    border-radius: 10px;
+    font-weight: bold;
+    color:darkturquoise;
+    width: 125px;
+}
+
+#btnAdd{
+    margin: 10px;
+    background-color: darkturquoise;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    font-size: 120%;
+}
+
+.nav{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    background-color: #444444;
+    padding: 5px 10px;
+}
+
+.nav-title{
+    color: white;
+}
+
+.nav-links{
+    display: flex;
+    list-style: none;
+
+
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: lightgray;
+}
+
+.nav-links li{
+    margin: 10px;
+}
