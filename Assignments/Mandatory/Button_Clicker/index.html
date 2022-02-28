@@ -11,24 +11,39 @@
     <div class="container">
         <div class="nav">
             <h1>Dojonary</h1>
-            <input type="text" name="search" id="search" placeholder="Search">
+            <input type="text" name="search" id="search" placeholder="Search" size="30">
             <button id="btnAccount" onclick="logOnOff(this)">Login</button>
         </div>
         <div class="wrapper">
-            <div class="main col border">
-                <div class="defSideBar">
-                    <div class="nameInfo">
-                        <p class="word">ninja</p>
-                        <p class="speechPart"><em>noun</em></p>
-                        <p class="plural">Plural: <em>ninjas</em></p>
+            <div class="col">
+                <div class="card border">
+                    <div class="defSideBar">
+                        <div class="nameInfo">
+                            <p class="word">ninja</p>
+                            <p class="speechPart"><em>noun</em></p>
+                            <p class="plural">Plural: <em>ninjas</em></p>
+                        </div>
+                        <button class="like" name="Ninja" onclick="liked(this)">13 likes</button>
                     </div>
-                    <button class="like">13 likes</button>
+                    <def class="cardMain">
+                        <p class="definition">A practitioner in the <a href="https://en.wikipedia.org/wiki/Japan">Japanese</a> art of <a href="https://en.wikipedia.org/wiki/Ninjutsu">ninjutsu</a></p>
+                    </def>
                 </div>
-                <def class="main">
-                    <p class="definition">A practitioner in the Japanese art of ninjutsu</p>
-                </def>
+                <div class="card border">
+                    <div class="defSideBar">
+                        <div class="nameInfo">
+                            <p class="word">ninja</p>
+                            <p class="speechPart"><em>noun</em></p>
+                            <p class="plural">Plural: <em>ninjas</em></p>
+                        </div>
+                        <button class="like" name="Ninja" onclick="liked(this)">13 likes</button>
+                    </div>
+                    <def class="cardMain">
+                        <p class="definition">A <a href="https://en.wikipedia.org/wiki/Programmer">programmer</a> who breaks down problems with <a href="https://en.wikipedia.org/wiki/Zen">zen</a>-like focus</p>
+                    </def>
+                </div>
             </div>
-            <div class="sideBar col-2 border">
+            <div class="col-2 border">
                 <h1>Dojonary is defined by YOU</h1>
                 <button id="btnAddDef" onclick="remElement(this)">Add Definition</button>
             </div>

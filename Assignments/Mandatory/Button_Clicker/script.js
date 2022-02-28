@@ -10,3 +10,7 @@ function logOnOff(element){
         element.innerText = "Login"
     }
 }
+
+function liked(element){
+    alert(`${element.name} was liked!`)
+}
