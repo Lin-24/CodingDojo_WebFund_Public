@@ -12,15 +12,25 @@
         <div class="nav">
             <h1>Dojonary</h1>
             <input type="text" name="search" id="search" placeholder="Search">
-            <button class="btnAccount" onclick="logOnOff(this)">Login</button>
+            <button id="btnAccount" onclick="logOnOff(this)">Login</button>
         </div>
         <div class="wrapper">
-            <div class="main col">
-    
+            <div class="main col border">
+                <div class="defSideBar">
+                    <div class="nameInfo">
+                        <p class="word">ninja</p>
+                        <p class="speechPart"><em>noun</em></p>
+                        <p class="plural">Plural: <em>ninjas</em></p>
+                    </div>
+                    <button class="like">13 likes</button>
+                </div>
+                <def class="main">
+                    <p class="definition">A practitioner in the Japanese art of ninjutsu</p>
+                </def>
             </div>
-            <div class="sideBar col-2">
+            <div class="sideBar col-2 border">
                 <h1>Dojonary is defined by YOU</h1>
-                <button onclick="remElement(this)">Add Definition</button>
+                <button id="btnAddDef" onclick="remElement(this)">Add Definition</button>
             </div>
         </div>
     </div>
