@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: cursive;
+}
+
+/* Fixed width container class that will "auto-center" itself */
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+.header{
+  text-align: center;
+}
+
+.col, .col-2{
+  flex:1;
+  padding-top: 30px;
+  min-height: 200px;
+}
+
+.col{
+  margin-right: 15px;
+}
+
+.col-2{
+  flex: 2;
+  margin-left: 15px;
+}
+
+
+.nav{
+  font-family: sans-serif;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  padding: 5px 10px;
+  color: white;
+}
+
+.content{
+  display: flex;
+  flex-direction: row;
+}
+
+.card, .profile-card{
+  margin-bottom: 30px;
+  border: 4px solid black;
+  padding: 15px;
+}
+
+.profile-card > *{
+  margin: 15px auto;
+  text-align: center;
+  display: block;
+}
+
+#profile-image{
+  width:75px;
+}
+
+.card-header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.card-body{
+  padding: 30px 20px 15px;
+}
+
+.likes{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.like{
+  background-color: #FBD85C;
+  font-size: 1.25em;
+  padding: 5px 10px;
+  box-shadow: 4px 4px black;
+  margin-left: 10px;
+}
+
