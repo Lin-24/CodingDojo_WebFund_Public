@@ -1,30 +1,25 @@
-/* CSS reset */
+/* reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-      
-  /* Fixed width container class that will "auto-center" itself */
-  .container {
-    width: 1200px;
-    margin: 0 auto;
-  }
-
-
-.row{
-    display: flex;
-
 }
 
-.col, .col-2, .col-3{
-    border: 1px solid;
-    flex:1;
-    margin: 10px;
-    padding: 10px;
-    background-color: turquoise;
+/* screen width header */
+#header{
+    width: 100%;
+    height: 75px;
+    background-color: darkgray;
 }
 
+  /* self-centering div */
+#container {
+width: 80%;
+height: 800px;
+margin: 0 auto;
+background-color: lightgrey;
+display: flex;
+}
 
 #btnSearch{
     margin: 10px;
@@ -45,6 +40,26 @@
     width: 25px;
     height: 25px;
     font-size: 120%;
+}
+
+.border, .roundedCornerBorder{
+    border: 3px solid black;
+}
+
+.roundedCornerBorder{
+    border-radius: 10px;
+}
+
+.row{
+    display: flex;
+
+}
+
+.col{
+    min-height: 200px;
+    border: 1px solid;
+    flex:1;
+    background-color: rgb(29, 27, 105);
 }
 
 .nav{
