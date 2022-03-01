@@ -46,9 +46,9 @@
                 </div>
                 <div class="profileCardBody">
                     <div class="flexWrapCenter rowSpacer flexRev">
-                        <a href="#"><i class="fa-solid fa-pencil"></i></a>
+                        <i class="fa-solid fa-pencil" onclick="changeName('profileName')"></i>
                     </div>
-                    <h2>Benjamin C Williams</h2>
+                    <h2 id="profileName">Benjamin C Williams</h2>
                     <h4 class="rowSpacer">Full-Stack .NET Core Developer</h4>
                     <p class="rowSpacer">Driven | Creative | Solutions Focused</p>
                     <div class="flexWrapCenter rowSpacer">
@@ -150,24 +150,24 @@
                     <h3>Requests</h3>
                 </div>
                 <div class="cardBody">
-                    <div class="spaceBetween">
+                    <div class="spaceBetween" id="req1">
                         <div class="flexWrapCenter">
                             <a href="#"><img src="./Assets/images/adrien-s.jpg" alt="Adrien Small" class="profilePhotoSmall"></a>
                             <p class="subtitle">Adrien Small</p>
                         </div>
                         <div class="acceptReject flexWrapCenter">
-                            <i class="fa-solid fa-check"></i>
-                            <i class="fa-solid fa-x"></i>
+                            <i class="fa-solid fa-check" onclick="remElement('req1')"></i>
+                            <i class="fa-solid fa-x" onclick="remElement('req1')"></i>
                         </div>
                     </div>
-                    <div class="spaceBetween">
+                    <div class="spaceBetween" id="req2">
                         <div class="flexWrapCenter">
                             <a href="#"><img src="./Assets/images/alayne-s.jpg" alt="Alayne Bennington" class="profilePhotoSmall"></a>
                             <p class="subtitle">Alayne Bennington</p>
                         </div>
                         <div class="acceptReject flexWrapCenter">
-                            <i class="fa-solid fa-check"></i>
-                            <i class="fa-solid fa-x"></i>
+                            <i class="fa-solid fa-check" onclick="remElement('req2')"></i>
+                            <i class="fa-solid fa-x" onclick="remElement('req2')"></i>
                         </div>
                     </div>  
                 </div>
@@ -215,5 +215,6 @@
             </div>
         </div>
     </div>
+    <script src="./script.js"></script>
 </body>
 </html>
