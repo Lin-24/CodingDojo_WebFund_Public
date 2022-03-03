@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="header">
-        <div id="headerTop">
+    <div id="siteHeader">
+        <div id="siteHeaderContent">
             <h1>DojoWeather</h1>
             <div class="locations">
                 <ul>
@@ -19,10 +19,18 @@
                 </ul>
             </div>
         </div>
-        <div id="headerBottom">San Jose</div>
+    </div>
+    <div id="pageHeader">
+        <h2>San Jose</h2>
+        <div id="tempSys">
+            <label for="cOrF">show temperature in </label>
+            <select name="C or F" id="cOrF">
+                <option value="C">&degC</option>
+                <option value="F">&degF</option>
+            </select>
+        </div>
     </div>
     <div id="container">
-        <div class="col">
             <div class="card">
                 <h2>Today</h2>
                 <img src="./assets/some_rain.png" alt="some rain graphic">
@@ -32,8 +40,6 @@
                     <p class="lowTemp">18&deg;</p>
                 </div>
             </div>
-        </div>
-        <div class="col">
             <div class="card">
                 <h2>Tomorrow</h2>
                 <img src="./assets/some_rain.png" alt="some rain graphic">
@@ -43,8 +49,6 @@
                     <p class="lowTemp">18&deg;</p>
                 </div>
             </div>
-        </div>
-        <div class="col">
             <div class="card">
                 <h2>Friday</h2>
                 <img src="./assets/some_rain.png" alt="some rain graphic">
@@ -54,8 +58,6 @@
                     <p class="lowTemp">18&deg;</p>
                 </div>
             </div>
-        </div>
-        <div class="col">
             <div class="card">
                 <h2>Saturday</h2>
                 <img src="./assets/some_rain.png" alt="some rain graphic">
@@ -65,7 +67,6 @@
                     <p class="lowTemp">18&deg;</p>
                 </div>
             </div>
-        </div>
     </div>
     <script src="./script.js"></script>
 </body>
