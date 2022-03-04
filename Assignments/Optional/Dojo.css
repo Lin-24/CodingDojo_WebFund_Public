@@ -17,7 +17,7 @@
 width: 80%;
 height: 800px;
 margin: 0 auto;
-background-color: lightgrey;
+/* background-color: lightgrey; */
 display: flex;
 }
 
