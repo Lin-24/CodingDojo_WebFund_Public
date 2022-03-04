@@ -59,6 +59,7 @@ display: flex;
     min-height: 200px;
     border: 1px solid;
     flex:1;
+    margin: 10px;
     background-color: rgb(29, 27, 105);
 }
 
